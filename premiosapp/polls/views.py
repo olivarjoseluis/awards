@@ -14,5 +14,5 @@ def detail(request, question_id):
 def result(request, question_id):
     return HttpResponse(f"Estas viendo los resultados # {question_id}")
 
-def votes(request, question_id):
+def vote(request, question_id):
     return HttpResponse(f"Estas votando a la pregunta # {question_id}")
